@@ -8,8 +8,8 @@ web，APP ，接口 UI自动化一体测试平台
 开发测试平台的初衷：希望web,app的UI自动化和接口的自动化能够一起执行，去掉jenkins构建，代码重构，繁多等问题。
 本平台是1.0版本，后续还将完善更多的功能（考虑是作成一个测试的客户端还是网页）
 
-什么是AutoLine开源平台
-Autotime开源平台是一个开源自动化测试解决方案，基于RobotFramework进行二次开发，支持RobotFramework几乎所有的库。并能够实现图像识别查找GUI等功能。
+什么是AutoZone测试平台
+AutoZone开源平台是一个开源自动化测试解决方案，基于RobotFramework进行二次开发，支持RobotFramework几乎所有的库。并能够实现图像识别查找GUI等功能。
 采用了哪些开源技术/框架
 python3
 Django
