@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7a7191f-65d5-49bc-aba4-33c2c02162d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apptest/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apptest/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -246,25 +246,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
+          <entry key="py" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
+          <entry key="Python" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="16" />
-          <entry key="py@AutoTestPlat" value="3" />
-          <entry key="txt" value="6" />
+          <entry key="py" value="87" />
+          <entry key="py@AutoTestPlat" value="21" />
+          <entry key="txt" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CommandLine" value="3" />
+          <entry key="CommandLine" value="21" />
           <entry key="HTML" value="16" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="PLAIN_TEXT" value="28" />
+          <entry key="Python" value="87" />
         </counts>
       </usages-collector>
     </session>
@@ -295,11 +299,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apitest/templates/left.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="20">
               <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apptest/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="52" column="57" lean-forward="true" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
+              <folding>
+                <element signature="e#14#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webtest/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="817">
+              <caret line="55" lean-forward="true" selection-start-line="1" selection-end-line="55" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -380,7 +408,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web_robotframework/run_webcase_stepcheck.py" />
         <option value="$PROJECT_DIR$/web_robotframework/templates/debug_run_webcase.py" />
         <option value="$PROJECT_DIR$/web_robotframework/get_webcase_stepdata.py" />
         <option value="$PROJECT_DIR$/web_robotframework/keywords.py" />
@@ -431,6 +458,7 @@
         <option value="$PROJECT_DIR$/apitest/templates/singel_periodic_task.html" />
         <option value="$PROJECT_DIR$/webtest/templates/webcase_periodic_task.html" />
         <option value="$PROJECT_DIR$/apitest/templates/left.html" />
+        <option value="$PROJECT_DIR$/apptest/models.py" />
       </list>
     </option>
   </component>
@@ -477,6 +505,16 @@
             <path>
               <item name="AutoZone" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutoZone" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoZone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoZone" type="462c0819:PsiDirectoryNode" />
+              <item name="apptest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoZone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoZone" type="462c0819:PsiDirectoryNode" />
+              <item name="webtest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -692,7 +730,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554903970924</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create app application">
+      <created>1554905793095</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554905793095</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -741,16 +786,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="app01" />
-    <option name="LAST_COMMIT_MESSAGE" value="app01" />
+    <MESSAGE value="create app application" />
+    <option name="LAST_COMMIT_MESSAGE" value="create app application" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Web/selenium3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webtest/test007.txt" />
     <entry file="file://$PROJECT_DIR$/webtest/templates/test.html" />
     <entry file="file://$PROJECT_DIR$/webtest/templates/keywordslibrary.html" />
@@ -766,7 +805,6 @@
     <entry file="file://$PROJECT_DIR$/webtest/results/report.html" />
     <entry file="file://$PROJECT_DIR$/webtest/results/output.xml" />
     <entry file="file://$PROJECT_DIR$/webtest/results/log.html" />
-    <entry file="file://$PROJECT_DIR$/webtest/models.py" />
     <entry file="file://$PROJECT_DIR$/webtest/webcase_write_to_txt.py" />
     <entry file="file://$PROJECT_DIR$/Web/Demo.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -930,6 +968,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webtest/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="55" lean-forward="true" selection-start-line="1" selection-end-line="55" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apptest/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="52" column="57" lean-forward="true" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
