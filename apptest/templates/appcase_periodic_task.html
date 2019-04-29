@@ -131,11 +131,11 @@
                     <tbody>
                     <tr>
                         {% for case  in cases %}
-                        <td id="checkboxone"><input type="checkbox" onclick="go_add('{{case.id}}','{{case.webcase_models}}','{{case.webcasename}}','{{case.webcasedesc}}')"></td>
+                        <td id="checkboxone"><input type="checkbox" onclick="go_add('{{case.id}}','{{case.appcase_models}}','{{case.appcasename}}','{{case.appcasedesc}}')"></td>
                         <td>{{case.id}}</td>
-                        <td>{{case.webcase_models}}</td>
-                        <td>{{case.webcasename}}</td>
-                        <td>{{case.webcasedesc}}</td>
+                        <td>{{case.appcase_models}}</td>
+                        <td>{{case.appcasename}}</td>
+                        <td>{{case.appcasedesc}}</td>
                     </tr>
                     {% endfor %}
                     </tbody>
@@ -175,13 +175,13 @@
     // 添加用例到任务执行列表中
     // var id,apiname,modelname;
     var obj=new Array();
-    function go_add(id,webcase_models,webcasename,webcasedesc){
+    function go_add(id,appcase_models,appcasename,appcasedesc){
        var  temp={};
         for(var i=0;i<=obj.length;i++)
         temp['id'] = id;
-        temp['webcase_models'] = webcase_models;
-        temp['webcasename'] = webcasename;
-        temp['webcasedesc'] = webcasedesc;
+        temp['appcase_models'] = appcase_models;
+        temp['appcasename'] = appcasename;
+        temp['appcasedesc'] = appcasedesc;
         obj.push(temp);
         objstring = JSON.stringify(obj)
     }
@@ -189,7 +189,7 @@
         console.log(objstring);
             $.ajax({
                 cache: false,
-                url: "addwebtask_data/",
+                url: "addapptask_data/",
                 dataType: 'text',
                 type: 'POST',
                 async: false,
