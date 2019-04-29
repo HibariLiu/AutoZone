@@ -29,9 +29,9 @@
         <thead>
         <tr>
             <th style="height: 45px;text-align: center">公共变量集合</th>
-            {% for webcase in webcases %}
+            {% for appcase in appcases %}
                 <tr>
-                    <td style="text-align: center">{{ webcase.webcasename}}</td>
+                    <td style="text-align: center">{{ appcase.appcasename}}</td>
                 </tr>
             {% endfor %}
         </thead>
@@ -44,7 +44,7 @@
     </div>
     {% csrf_token %}
 </form>
-<button class="btn btn-default" style="background:#53245d;margin-left:1400px;margin-top: -75px" ><a class="related-widget-wrapper-link add-related" style="color:white;" id="add_id_Webcase" href="/admin/webtest/webcase/add/" title="增加测试用例" target="_parent"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>增加</a></button>
+<button class="btn btn-default" style="background:#53245d;margin-left:1400px;margin-top: -75px" ><a class="related-widget-wrapper-link add-related" style="color:white;" id="add_id_Appcase" href="/admin/apptest/appcase/add/" title="增加测试用例" target="_parent"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>增加</a></button>
 <button class="btn btn-default" style="background:#53245d;margin-left:1260px;color:white;margin-top: -112px"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>添加到定时任务</button>
 <div class="container" style="width: 1450px">
     <table id="table" class="table table-striped table-hover"  style="margin-left:45px;margin-top: -30px;table-layout: fixed">
@@ -54,19 +54,19 @@
         </tr>
         </thead>
         <tbody>
-        {% for webcase in webcases %}
+        {% for appcase in appcases %}
         <tr>
-            <td>{{ webcase.id }}</td>
-            <td>{{ webcase.webcase_models }}</td>
-            <td>{{ webcase.webcasename }}</td>
-            <td>{{ webcase.webcasedesc }}</td>
-            <td>{{ webcase.webtestresult }}</td>
-            <td>{{ webcase.webcase_charger}}</td>
-            <td>{{ webcase.webcomments }}</td>
-            <td>{{ webcase.creat_time }}</td>
-            <td><a class="btn btn-default sm" style="color:black;" id="del_id_Webcase" href="../admin/webtest/webcase/{{ webcase.id }}/delete/" title="删除测试用例" target="_parent">删除</a>
-                <a  href="{% url "webcasestep_manage" %}?webcase.id={{ webcase.id }}" target="mainFrame" class="btn btn-default sm">调试步骤</a>
-                <a class="btn btn-default sm" style="color:black" id="edit_id_Webcase" href="../admin/webtest/webcase/{{ webcase.id }}/change/" title="编辑测试步骤" target="_parent">编辑步骤</a>
+            <td>{{ appcase.id }}</td>
+            <td>{{ appcase.appcase_models }}</td>
+            <td>{{ appcase.appcasename }}</td>
+            <td>{{ appcase.appcasedesc }}</td>
+            <td>{{ appcase.apptestresult }}</td>
+            <td>{{ appcase.appcase_charger}}</td>
+            <td>{{ appcase.appcomments }}</td>
+            <td>{{ appcase.creat_time }}</td>
+            <td><a class="btn btn-default sm" style="color:black;" id="del_id_Appcase" href="../admin/apptest/appcase/{{ appcase.id }}/delete/" title="删除测试用例" target="_parent">删除</a>
+                <a  href="{% url "appcasestep_manage" %}?webcase.id={{ appcase.id }}" target="mainFrame" class="btn btn-default sm">调试步骤</a>
+                <a class="btn btn-default sm" style="color:black" id="edit_id_Appcase" href="../admin/apptest/appcase/{{ appcase.id }}/change/" title="编辑测试步骤" target="_parent">编辑步骤</a>
             </td>
         </tr>
         {% endfor %}
@@ -76,20 +76,20 @@
 
 <nav>
     <ul class="pager pagination navbar-fixed-bottom">
-        {% if webcases.has_previous %}
-        <li class="previous"><a href="?page={{webcases.previous_page_number}}" style="margin-left: 600px">上一页</a></li>
+        {% if appcases.has_previous %}
+        <li class="previous"><a href="?page={{appcases.previous_page_number}}" style="margin-left: 600px">上一页</a></li>
         {% else %}
         <li class="previous disabled"><a href="#" style="margin-left: 600px">上一页</a></li>
         {% endif %}
-        {% for num in webcases.paginator.page_range %}
+        {% for num in appcases.paginator.page_range %}
         {% if num == currentPage %}
         <li class="item active"><a href="?page={{num}}" style="margin-left: 30px">{{num}}</a></li>
         {% else %}
         <li class="item"><a href="?page={{num}}" style="margin-left: 30px">{{num}}</a></li>
         {% endif %}
         {% endfor %}
-        {% if webcases.has_next %}
-        <li class="next"><a href="?page={{webcases.next_page_number}}"  style="margin-right: 800px">下一页</a></li>
+        {% if appcases.has_next %}
+        <li class="next"><a href="?page={{appcases.next_page_number}}"  style="margin-right: 800px">下一页</a></li>
         {% else %}
         <li class="next disabled"><a href="#" style="margin-right: 800px">下一页</a></li>
         {% endif %}
@@ -98,18 +98,18 @@
 </body>
 <script>
 //点击立即执行任务列表中的用例
-    $("#addwebcase").click(function(){
+    $("#addappcase").click(function(){
         $.ajax({
             cache:false,
-            url:"add_web_casename/",
+            url:"add_app_casename/",
             type:'POST',
             dataType:'text',
             async:false,
             data:{
-                "webmodelname": $("#addmodel").val(),
-                "webcasename": $("#addcase").val(),
-                "webcharger":$("#addcharger").val(),
-                "webaddcasedesc":$("#addcasedesc").val(),
+                "appmodelname": $("#addmodel").val(),
+                "appcasename": $("#addcase").val(),
+                "appcharger":$("#addcharger").val(),
+                "appaddcasedesc":$("#addcasedesc").val(),
             },
             success: function (data) {
                 alert("提交成功");
