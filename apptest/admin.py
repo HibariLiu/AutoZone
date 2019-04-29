@@ -20,6 +20,6 @@ class AppcasestepAdmin(admin.TabularInline):
             object.save()
 
 class AppcaseAdmin(admin.ModelAdmin):
-    list_display = ['webcasename','id']
+    list_display = ['appcasename','id']
     inlines = [AppcasestepAdmin]
 admin.site.register(Appcase,AppcaseAdmin)

@@ -81,25 +81,25 @@ def delete_app_casesteps(request):
     return render(request, "appcasestep_manage.html",{"user": username, "appcasesteps": appcasesteps, "appcase": appcase})
 
 
-#上传图片
-@login_required
-def upload_file(request):
-    # 请求方法为POST时，进行处理
-    if request.method == "POST":
-        # 获取上传的文件，如果没有文件，则默认为None
-        File = request.FILES.get("myfile", None)
-        if File is None:
-            return HttpResponse("没有需要上传的文件")
-        else:
-            #打开特定的文件进行二进制的写操作
-            #print(os.path.exists('/temp_file/'))
-            with open("./webtest/media/%s" % File.name, 'wb+') as f:
-                #分块写入文件
-                for chunk in  File.chunks():
-                    f.write(chunk)
-            return HttpResponse("UPload over!")
-    else:
-        return  render(request, "test.html")
+# #上传图片
+# @login_required
+# def upload_file(request):
+#     # 请求方法为POST时，进行处理
+#     if request.method == "POST":
+#         # 获取上传的文件，如果没有文件，则默认为None
+#         File = request.FILES.get("myfile", None)
+#         if File is None:
+#             return HttpResponse("没有需要上传的文件")
+#         else:
+#             #打开特定的文件进行二进制的写操作
+#             #print(os.path.exists('/temp_file/'))
+#             with open("./apptest/media/%s" % File.name, 'wb+') as f:
+#                 #分块写入文件
+#                 for chunk in  File.chunks():
+#                     f.write(chunk)
+#             return HttpResponse("UPload over!")
+#     else:
+#         return  render(request, "test.html")
 
 
 #立即执行测试用例
@@ -177,7 +177,7 @@ def run_appcase_immediately(request):
 
 
 #获取前端的定时任务时间并传递给task
-def get_webcase_task_time(request):
+def get_appcase_task_time(request):
     username = request.session.get('user', '')
     data = {
         'username':username,
