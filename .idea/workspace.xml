@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7a7191f-65d5-49bc-aba4-33c2c02162d3" name="Default Changelist" comment="">
+    <list default="true" id="d7a7191f-65d5-49bc-aba4-33c2c02162d3" name="Default Changelist" comment="change appcase_periodic_task001">
+      <change afterPath="$PROJECT_DIR$/apptest/get_appcase_stepdata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apptest/media/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apptest/media/baidu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apptest/media/chrome.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apptest/media/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apptest/media/shuru.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apptest/tasks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoTestPlat/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutoTestPlat/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apptest/templates/App_test_robotframework.html" beforeDir="false" afterPath="$PROJECT_DIR$/apptest/templates/App_test_robotframework.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apptest/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apptest/appviews.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apptest/appviews.py" beforeDir="false" afterPath="$PROJECT_DIR$/apptest/appviews.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -250,31 +255,31 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="4" />
-          <entry key="py" value="11" />
+          <entry key="html" value="6" />
+          <entry key="py" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="4" />
-          <entry key="Python" value="11" />
+          <entry key="HTML" value="6" />
+          <entry key="Python" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="3" />
-          <entry key="html" value="148" />
-          <entry key="py" value="347" />
+          <entry key="dummy" value="6" />
+          <entry key="html" value="270" />
+          <entry key="py" value="805" />
           <entry key="py@AutoTestPlat" value="47" />
-          <entry key="txt" value="45" />
+          <entry key="txt" value="104" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CommandLine" value="47" />
-          <entry key="HTML" value="148" />
-          <entry key="PLAIN_TEXT" value="48" />
-          <entry key="Python" value="347" />
+          <entry key="HTML" value="270" />
+          <entry key="PLAIN_TEXT" value="110" />
+          <entry key="Python" value="805" />
         </counts>
       </usages-collector>
     </session>
@@ -287,10 +292,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webtest/webviews.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="13" selection-end-column="104" />
+            <state relative-caret-position="297">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webtest/tasks.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="79" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#14#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -299,8 +313,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apptest/appviews.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="709">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="-2909">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -308,14 +322,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apptest/admin.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apptest/tasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="243">
+              <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -323,8 +334,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AutoTestPlat/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="69" column="64" lean-forward="true" selection-start-line="69" selection-start-column="64" selection-end-line="69" selection-end-column="64" />
+            <state relative-caret-position="358">
+              <caret line="65" column="44" lean-forward="true" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
               <folding>
                 <element signature="e#643#675#0" expanded="true" />
               </folding>
@@ -332,11 +343,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apptest/templates/App_test_robotframework.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
+            <state relative-caret-position="1488">
               <caret line="140" column="33" lean-forward="true" selection-start-line="140" selection-start-column="33" selection-end-line="140" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apptest/templates/appcase_periodic_task.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="268" column="34" lean-forward="true" selection-start-line="268" selection-start-column="34" selection-end-line="268" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apptest/templates/appcasestep_manage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2430">
+              <caret line="75" column="143" selection-start-line="75" selection-start-column="143" selection-end-line="75" selection-end-column="143" />
+              <folding>
+                <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -376,6 +408,7 @@
       <find>browser</find>
       <find>tesseract_cmd</find>
       <find>upperlevel_id</find>
+      <find>addwebcas</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -387,10 +420,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web_robotframework/debug_run_webcase.py" />
-        <option value="$PROJECT_DIR$/web_robotframework/models.py" />
-        <option value="$PROJECT_DIR$/web_robotframework/webviews.py" />
-        <option value="$PROJECT_DIR$/web_robotframework/admin.py" />
         <option value="$PROJECT_DIR$/web_robotframework/templates/webcasestep_manage.html" />
         <option value="$PROJECT_DIR$/web_robotframework/templates/Web_test_robotframework.html" />
         <option value="$PROJECT_DIR$/webtest/driver.py" />
@@ -435,9 +464,13 @@
         <option value="$PROJECT_DIR$/apptest/models.py" />
         <option value="$PROJECT_DIR$/AutoTestPlat/settings.py" />
         <option value="$PROJECT_DIR$/apptest/admin.py" />
-        <option value="$PROJECT_DIR$/AutoTestPlat/urls.py" />
-        <option value="$PROJECT_DIR$/apptest/appviews.py" />
         <option value="$PROJECT_DIR$/apptest/templates/App_test_robotframework.html" />
+        <option value="$PROJECT_DIR$/apptest/templates/appcasestep_manage.html" />
+        <option value="$PROJECT_DIR$/apptest/templates/appcase_periodic_task.html" />
+        <option value="$PROJECT_DIR$/AutoTestPlat/urls.py" />
+        <option value="$PROJECT_DIR$/apptest/get_appcase_stepdata.py" />
+        <option value="$PROJECT_DIR$/apptest/tasks.py" />
+        <option value="$PROJECT_DIR$/apptest/appviews.py" />
       </list>
     </option>
   </component>
@@ -488,18 +521,12 @@
             <path>
               <item name="AutoZone" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutoZone" type="462c0819:PsiDirectoryNode" />
-              <item name="apitest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoZone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoZone" type="462c0819:PsiDirectoryNode" />
               <item name="apptest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutoZone" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutoZone" type="462c0819:PsiDirectoryNode" />
-              <item name="apptest" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="webtest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -514,22 +541,22 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\AutoZone\apptest\templates" />
-      <recent name="D:\AutoTestPlat\apitest" />
-      <recent name="F:\AutoTestPlat\AutoTestPlat\webtest\templates" />
-      <recent name="F:\AutoTestPlat\AutoTestPlat\webtest\media" />
-      <recent name="F:\AutoTestPlat\AutoTestPlat\Web\test01" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\AutoTestPlat\AutoTestPlat\Web" />
       <recent name="F:\AutoTestPlat\AutoTestPlat\webtest\media" />
       <recent name="F:\AutoTestPlat\AutoTestPlat\Web\test01" />
       <recent name="F:\AutoTestPlat\AutoTestPlat\web_robotframework\templates" />
       <recent name="F:\AutoTestPlat\AutoTestPlat\web_robotframework" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AutoZone\apptest" />
+      <recent name="D:\AutoZone\apptest\templates" />
+      <recent name="D:\AutoTestPlat\apitest" />
+      <recent name="F:\AutoTestPlat\AutoTestPlat\webtest\templates" />
+      <recent name="F:\AutoTestPlat\AutoTestPlat\webtest\media" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -750,7 +777,21 @@
       <option name="project" value="LOCAL" />
       <updated>1556540475566</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="change app_test_robotframework001">
+      <created>1556541670014</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1556541670014</updated>
+    </task>
+    <task id="LOCAL-00008" summary="change appcase_periodic_task001">
+      <created>1556542253199</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1556542253199</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -805,13 +846,11 @@
     <MESSAGE value="create app application template" />
     <MESSAGE value="create app admin" />
     <MESSAGE value="create app admin02" />
-    <option name="LAST_COMMIT_MESSAGE" value="create app admin02" />
+    <MESSAGE value="change app_test_robotframework001" />
+    <MESSAGE value="change appcase_periodic_task001" />
+    <option name="LAST_COMMIT_MESSAGE" value="change appcase_periodic_task001" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apitest/templates/welcome.html" />
-    <entry file="file://$PROJECT_DIR$/apitest/models.py" />
-    <entry file="file://$PROJECT_DIR$/apitest/templates/singel_api_test.html" />
-    <entry file="file://$PROJECT_DIR$/webtest/test00None.txt" />
     <entry file="file://$PROJECT_DIR$/webtest/templates/webcasestep_manage.html" />
     <entry file="file://$PROJECT_DIR$/apitest/run_singel_api_task.py" />
     <entry file="file://$PROJECT_DIR$/webtest/results/report.html" />
@@ -870,7 +909,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AutoTestPlat/wsgi.py" />
     <entry file="file://D:/Python3.7/Lib/site-packages/django/utils/autoreload.py" />
-    <entry file="file://$PROJECT_DIR$/webtest/get_webcase_stepdata.py" />
     <entry file="file://$PROJECT_DIR$/webtest/templates/Web_test_robotframework.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -884,13 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webtest/celery.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -919,16 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7236">
           <caret line="268" column="38" selection-start-line="268" selection-start-column="38" selection-end-line="268" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webtest/tasks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="79" />
-          <folding>
-            <element signature="e#14#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1011,40 +1032,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/apptest/templates/appcasestep_manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2430">
+          <caret line="75" column="143" selection-start-line="75" selection-start-column="143" selection-end-line="75" selection-end-column="143" />
+          <folding>
+            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AutoTestPlat/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="69" column="64" lean-forward="true" selection-start-line="69" selection-start-column="64" selection-end-line="69" selection-end-column="64" />
+        <state relative-caret-position="358">
+          <caret line="65" column="44" lean-forward="true" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
           <folding>
             <element signature="e#643#675#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/apptest/templates/appcase_periodic_task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="268" column="34" lean-forward="true" selection-start-line="268" selection-start-column="34" selection-end-line="268" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apptest/templates/App_test_robotframework.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1488">
+          <caret line="140" column="33" lean-forward="true" selection-start-line="140" selection-start-column="33" selection-end-line="140" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webtest/celery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webtest/get_webcase_stepdata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1296" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webtest/webviews.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="13" selection-end-column="104" />
+        <state relative-caret-position="297">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webtest/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="79" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#14#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apptest/appviews.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="-2909">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apptest/templates/App_test_robotframework.html">
+    <entry file="file://$PROJECT_DIR$/apptest/get_appcase_stepdata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="140" column="33" lean-forward="true" selection-start-line="140" selection-start-column="33" selection-end-line="140" selection-end-column="33" />
+        <state relative-caret-position="2572">
+          <caret line="110" column="19" lean-forward="true" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+          <folding>
+            <element signature="e#14#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apptest/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
         </state>
       </provider>
     </entry>
